@@ -1,0 +1,384 @@
+<style>
+
+body{
+background-image: url('') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+background-color:#000000;
+}
+
+body{
+background-image: url('') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+background-color:#000000;
+}
+
+::-webkit-scrollbar {width: 2px; height: 2px; border-radius: 10px;}
+::-webkit-scrollbar-track {background: none;}
+::-webkit-scrollbar-thumb {background: #222222;}
+
+#box {
+position: absolute;
+top: 0%;
+left: 0%;
+height: 100%;
+width: 100%;
+}
+
+#box1 {
+position: absolute;
+top: 10%;
+left: 0%;
+height: 20%;
+width: 100%;
+font-family: Shrikhand;
+font-size: 250%;
+text-align: center;
+color: #666666;
+}
+
+.tabs{
+position: absolute;
+top: 30%;
+left: 26%;
+width: 20%;
+height: 7%;
+text-align: center;
+font-size: 200%;
+color: #cccccc;
+font-family: Shrikhand;
+display: block;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs:hover {
+color: #999999;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs1{
+position: absolute;
+top: 30%;
+left: 54%;
+width: 20%;
+height: 7%;
+text-align: center;
+font-size: 200%;
+color: #cccccc;
+font-family: Shrikhand;
+display: block;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs1:hover {
+color: #999999;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box2 {
+position: absolute;
+top: 10%;
+left: 27%;
+height: 70%;
+width: 20%;
+overflow: auto;
+font-size: 80%;
+font-family: Arial;
+color: #666666;
+padding: 10px;
+border: 1px solid #000000;
+}
+
+#box3 {
+position: absolute;
+top: 10%;
+left: 50%;
+height: 34%;
+width: 20%;
+padding: 10px;
+border: 1px solid #000000;
+}
+
+#box4 {
+position: absolute;
+top: 50%;
+left: 50%;
+height: 30%;
+width: 20%;
+padding: 10px;
+border: 1px solid #000000;
+}
+
+.tabs2{
+width: 50%;
+height: 10%;
+margin-top: 4%;
+margin-left: 23%;
+text-align: center;
+font-size: 100%;
+color: #cccccc;
+font-family: Shrikhand;
+display: inline-block;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs2:hover {
+color: #999999;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box5 {
+position: absolute;
+top: 10%;
+left: 27%;
+height: 70%;
+width: 20%;
+overflow: auto;
+font-size: 80%;
+font-family: Arial;
+color: #666666;
+padding: 10px;
+border: 1px solid #000000;
+}
+
+#box6 {
+position: absolute;
+top: 10%;
+left: 50%;
+height: 34%;
+width: 20%;
+padding: 10px;
+border: 1px solid #000000;
+}
+
+#box7 {
+position: absolute;
+top: 50%;
+left: 50%;
+height: 30%;
+width: 20%;
+padding: 10px;
+border: 1px solid #000000;
+}
+
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6,#tab7,#tab8,#tab9,#tab10,#tab11,#tab12,#tab13,#tab14,#tab15 {
+display: none;
+}
+
+h1 {
+color: #cccccc;
+font-family: Shrikhand;
+text-align:center;
+font-size: 150%;
+}
+
+b {
+font-family: Shrikhand;
+color: #cccccc;
+}
+
+i {
+font-family: Arial;
+color: #cccccc;
+}
+
+</style>
+
+<style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), progress !important;}</style>
+<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+<script>function changeNavigation(id) {document.getElementById('box').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation1(id) {document.getElementById('box2').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation2(id) {document.getElementById('box5').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation3(id) {document.getElementById('box6').innerHTML=document.getElementById(id).innerHTML}</script>
+
+<div id="box">
+<div id="box1">
+Choose Which Path You Will Take
+</div>
+<span class="tabs" onClick="changeNavigation ('tab1')">The Student</span>
+<span class="tabs1" onClick="changeNavigation ('tab2')">The Teacher</span>
+</div>
+
+<div id="tab1">
+<div id="box2">
+<h1>Basic Information</h1>
+<b>First Name:</b> Nella<br>
+<b>Last Name:</b> Violino<br>
+<b>Age:</b> 20<br>
+<b>Birthdate:</b> April 13th<br>
+<b>Gender:</b> Cisgender Female<br>
+<b>Sexuality:</b> Demisexual<br>
+<b>Species:</b> Human<br>
+<b>Race:</b> Itialian<br>
+<b>Talents:</b> Conjuration, Music<br>
+<b>Instruments:</b> Violin, Piano, Vocal<br>
+<b>Occupation:</b> Student at <a href="http://vetiver.weebly.com">Vetiver Academy</a><br>
+<b>Patron Diety:</b> Symphony, Goddess of Music<br>
+<b>Height:</b> 5'6"<br>
+<b>Weight:</b> 120 lbs.
+</div>
+<div id="box3">
+<img style="height:100%;margin-left:5%;" src="http://pre05.deviantart.net/175d/th/pre/f/2016/152/8/4/eki_by_kuvshinov_ilya-da4kag7.jpg"/>
+</div>
+<div id="box4">
+<span class="tabs2" onClick="changeNavigation1 ('tab3')">Details</span>
+<span class="tabs2" onClick="changeNavigation1 ('tab4')">History</span>
+<span class="tabs2" onClick="changeNavigation1 ('tab5')">Conjuration</span>
+<span class="tabs2" onClick="changeNavigation1 ('tab6')">Ritualism</span>
+<span class="tabs2" onClick="changeNavigation1 ('tab7')">Items</span>
+</div>
+<div id="tab3">
+<h1>Detailed Information</h1>
+<b>Appearance</b><br>
+Since Nella was born and raised in Italy, her humanistic features adapted to fit the culture and common appearances found therein. She has long dark brown hair that is often mistaken for black, her eyes are a deep rich brown that match her elbow-length locks. Her skin is a dark olive, that tightly covers a thin shapely and definite female body. What she doesn't have in bust and rear she makes up for in agility, shape, and talent. She is minimalistic in jewelery and only wears small charms on necklaces, studs in her ears, and usually nothing on her wrists or hands. As a musician, Nella is forced to keep her fingernails short and doesn't do fancy things with them often. Even her clothes are rather simple, allowing her to blend with the crowd. 
+<br><br>
+<b>Personality</b><br>
+Nella is a quiet individual, and ironically hates drawing attention to herself. To be fair, if she'd had her way, she'd never have existed. She is fiercely loyal and seeks truth before accepting accusation. She remains as unbiased as she possibly can which can make her seem cold or distant, but this is balanced with her generous amounts of mercy and general love for all living things. All this is great, except life has not been its kindest. Nella suffers from a Social Anxiety disorder. Choosing academics over social life all of her school career has left a huge gap in her knowledge of human interaction. A definite extrovert considering she loves people and feels good being around them, however, her lack of social skills has made her embarrassed by her own awkwardness, making it hard for her to properly communicate. That being said, being around a lot of people can be hard and even end in a panic attack. This actually is a touchy subject to her, and often causes her to be infuriated with herself. As an Autodidact, Nella spent most of her life being the "smartest kid in class" because she could research and study anything that she wanted or needed to know. Unfortunately, you can't learn social skills from books alone. It takes practice that most other humans had years to develop. The fact that she can't learn it frustrates her to no end.
+</div>
+<div id="tab4">
+<h1>History & Lore</h1>
+In the glorious land of Italy where culture is as rich as the wine, students are naturally the future. Children are depended on to carry out the legacy that the nation takes great pride in. Attention is often drawn to China where students undergo a lot of pressure and are expected to succeed to the best of their abilities no matter the cost. In Italy, it isn't much different. Students are given little instruction, expected to do all the work on their own, and are given one major test at the end of the course that decides their fate. 
+<br><br>
+The point of those facts was to help set the stage for the pressure our young character would be under. Nella was born as a natural blessing to Maria and Piero Voltolini on June 13th, 1995. Maria was a violin prodigy who was known across Europe for her talent, while Piero was a well-known Cardiologist. Unfortunately, Maria did not survive childbirth and Piero was left alone with his daughter. Piero was a busy man and refused to be remarried, afraid that another woman would take that special place in his heart that was reserved solely for the one true love of his life. Instead, he agreed that he must let his child go, and registered her in a local orphanage when she was just an infant. Three years passed and word spread that there was a great fire in the hospital where her father worked, tragically taking his life and the lives of many other men and women that worked there. 
+<br><br>
+The headmaster of the orphanage believed that the beloved child of the medical genius and the musical prodigy was too young and too smart to be told that there was no one left for her. Instead, he only raised her by her first and middle name. Nella grew up only as "Nella Maria," who had a natural learning ability that surpassed her peers, and a passionate love for music that she couldn't explain. However, her favoritism from the headmaster and the instructors based on her hard work ethic and great learning ability, made her an outcast. The other children mocked her and made her feel terrible about being a great student. Nella's only solace was in a library surrounded by silent books. Books that refused to judge her. When she felt lonely or things were too quiet, she practiced music with the hopes of mastering it one day. 
+<br><br>
+On her eighth birthday, the headmaster left her a violin as a gift with a short note that simply read, "This was your mother's." It quickly became her cherished and most prized possession. However, it also brought questions about her parent's identities to her mind, and made her wonder what her last name really was. For the first time, Nella became a rule breaker. She sneaked into the history records to try and find anything on herself. Before she got caught she managed to find one document with her three initials: N.M.V. Word spread of her brave endeavors, but because she was being punished through isolation, she only continued to be a mockery. "Nella, l'amante violino! Lei non potrà mai sposare!" 
+"Nella, the violin lover! She will never be married!" 
+"Nella Violino! Nella Violino!" They'd chant and laugh for hours, until it just stuck. At first she hated it, and considered giving up on music...but then she looked at her initials and decided it fit her well enough. From that point on, she made it her official last name, and wore it proudly. 
+<br><br>
+Jump ahead a few years, the instructor was reading a Romanticized novel to her class of thirteen-year-olds about a great "Goddess of Music whose beauty and grace rivaled the heavens themselves." Nella was so intrigued and inspired by the goddess' story that she researched the legends to no end. She believed with all her heart that this goddess really existed and really watched over children with musical talent. She claimed this goddess--whose name was Symphony--as her patron religion, and prayed to the deity often. 
+<br><br>
+Even though she'd technically "graduated" from schooling at age 16, she still wasn't allowed to leave the orphanage and live on her own until she reached 18. Finally! She could search for a temple dedicated to her patron Goddess and follow her passion! Nella was determined to be a renown violinist. Of course, when embracing the world of fame, with Nella's Social Anxiety disorder she'd developed as a bookworm child, one is easily taken advantage of. Nella was robbed of almost everything she had--save her precious violin--by the money-hungry people of the world, only increasing her anxiety and driving her deeper into an awkward distrusting state. Lucky for her, the Goddess Symphony's only temple was in the heart of Italy, in the city of Venice. 
+<br><br>
+Venice is where Nella ended up with her last "employer" before left homeless on the streets. She went almost an entire week with only crumbs and unclean water to keep herself alive when the high priest of Symphony's temple found her. Explaining who he was and coaxing her out of her shell little by little, he brought her back to the Great Temple, where he hired her as a "Performance Mistress." Her job was to please the Goddess by playing her instrument, and 50% of her earnings were to be sacrificed as a thank-you. But hey! Room and board was free, so why not? 
+<br><br>
+Naturally, in temples such as these many peculiar visitors happen by. Most of them weren't even human! It was among these magical creatures that shared belief in the Great Goddess that Nella heard the whispers of Magical Academies. Intrigued, she mingled with the "people" and asked if anyone could join. 
+<br>"Sure! If you have mana, then you can submit an application wherever you like!" <br>
+Nella wanted desperately to have mana, so when she was alone during her evening prayers, Nella reached deep within herself in desperate attempts to locate her mana, and in a moment of needy desperation, low and behold! mana sparked from her fingertips. Encouraged by this, Nella continued to listen to the talk of the magical travelers, deciding for herself which Academy she wanted to join. She began to hear vague stories about a place named "Vetiver Academy," and every tale ended by making the Academy a big mystery. Even when asking around, she couldn't find any real in depth information. Intrigued, and excited by a mystery, she did all the research on the place she possibly could, and set out on a journey to find it!
+</div>
+<div id="tab5">
+<h1>Conjuration</h1>
+COMING SOON
+</div>
+<div id="tab6">
+<h1>Ritualism</h1>
+Second Tree not available yet, coming soon.
+</div>
+<div id="tab7">
+<h1>Items & Mediums</h1>
+Items aren't available yet, coming soon.
+</div>
+</div>
+
+<div id="tab2">
+<div id="box5">
+<h1>Basic Information</h1>
+<b>First Name:</b> Nella<br>
+<b>Last Name:</b> O'Connor<br>
+<b>Age:</b> Early 40's<br>
+<b>Birthdate:</b> April 13th<br>
+<b>Gender:</b> Cisgender Female<br>
+<b>Sexuality:</b> Demisexual<br>
+<b>Species:</b> Human<br>
+<b>Race:</b> Itialian<br>
+<b>Relationship:</b> Married<br>
+<b>Talents:</b> Conjuration, Ritualism, Photokinetics, Music<br>
+<b>Instruments:</b> Violin, Piano, Vocal, Guitar, Bass, Harp<br>
+<b>Occupation:</b> Teacher and Auror at <a href="http://seioracademy.chatango.com">Seior Academy</a><br>
+<b>Patron Diety:</b> Symphony, Goddess of Music<br>
+<b>Height:</b> 5'8"<br>
+<b>Weight:</b> 130 lbs.
+</div>
+<div id="box6">
+<img style="width:100%;margin-top:10%;" src="http://orig03.deviantart.net/87ae/f/2016/312/5/1/anime_girl_black_and_white_favim_by_krysseh21-danrgpi.jpg"/>
+</div>
+<div id="box7">
+<span class="tabs2" onClick="changeNavigation2 ('tab8');changeNavigation3 ('tab13')">Details</span>
+<span class="tabs2" onClick="changeNavigation2 ('tab9');changeNavigation3 ('tab14')">History</span>
+<span class="tabs2" onClick="changeNavigation2 ('tab10')">Conjuration</span>
+<span class="tabs2" onClick="changeNavigation2 ('tab11')">Ritualism</span>
+<span class="tabs2" onClick="changeNavigation2 ('tab12');changeNavigation3 ('tab15')">Items</span>
+</div>
+</div>
+
+<div id="tab8">
+<h1>Detailed Information</h1>
+<b>Appearance</b><br>
+Once small and delicate, now a layer of hard muscle rests under her tanned skin. Very athletic appearance, a few scars covering her back, stomach, and upper thighs. (Expansion on Vetiver Appearance) 
+<br><br>
+<b>Personality</b><br>
+Quiet and rather judgemental. She only speaks when absolutely necessary, although often doesn't have very many nice things to say. While a lot of her original kind passionate heart remains, it's buried under an emotionless mask.
+<br><br>
+<b>Family</b><br>
+Nella has a Husband, a Son, and a Daughter, all whom she loves with all her heart.
+</div>
+
+<div id="tab9">
+<h1>History & Lore</h1>
+After some time of studying at Vetiver Academy and developing her skills, Nella made quite a few friends and even ended up actually dating. Her boyfriend was a High Auror by the name of Ryan O'Connor. Not long after the two started their relationship, one of his friends got into trouble with the school and a big controversial mess was born. Unless him and his friends left, they would probably be killed. Nella followed her lover into exile, their small group going on a long and grand adventure. 
+<br><br>
+Everything seemed to be going exceptionally well. Nella became close with his group of friends, and the two of them became ever more attached. They even took in a small child to care for while on their travels. Eventually, Ryan asked for her hand in marriage and Nella took his last name. The group went their separate ways; Nella, Ryan, and their adopted son settling in a house not far from the very place they had met. Not very long after that, Nella became pregnant and bore her husband a daughter. 
+<br><br>
+All was not well in their beloved school, however. During their absence, war after war was brought to Vetiver, and a massacre of many of the students she had called friend ensued. While Nella believed that the school had refused their help by stubbornly exiling them, Ryan insisted on going to fight. Obviously, the two did not agree on this matter and it caused a lot of tension in their home. Then one day, Ryan and their son just left, insisting Nella stay behind for the sake of their daughter, and went off to fight in the war. Days turned to weeks, weeks turned to months, and months turned to years. There was no sign, no letter, not even a phone call from her husband or her son, so Nella was led to believe they were dead. 
+<br><br>
+She raised their daughter on her own, doing her best to keep a positive memory of her husband in her child's mind. Eventually, money became too tight and Nella was forced to take on undesirable jobs; basically as a mercenary. She'd do the job if the pay was high enough and if it fit within her moral compass. One of her assignments sent her to another magic school called Seior Academy where she was to rescue a valuable hostage by the name of Emily Rose, and kill anyone who stood in her path. 
+<br><br>
+Now Ryan O'Connor himself--a teacher at Seior Academy--stands in her way.<br>
+Should she be happy that he'd been alive all this time, or angry that he never even told her?<br>
+A fist to his face is her first reaction.
+</div>
+
+<div id="tab10">
+<h1>Conjuration</h1>
+REWORKING
+</div>
+
+<div id="tab11">
+<h1>Ritualism</h1>
+REWORKING
+</div>
+
+<div id="tab12">
+<h1>Items, Weapons & Mediums</h1>
+<p align="center"><u>Medium; A Light Instrument</u></p>
+Nella's precious instrument is a very special one indeed, made specifically for her. Since her mana is naturally light based as mentioned before. The instrument's body is made of ballistic glass while the important pieces that hold the whole thing together (i.e.: bridge, neck, pegs, scroll, chin rest, etc) are a light colored maple. Etched into the ballistic glass body are runes that merely allow the inanimate object to channel the magic of its user. There is also a rune inscribed on the back of the violin that helps Nella use her spell "Call to Light."
+<p align="center"><u>Weapons; Tools For A Light Sound</u></p>
+A violin can only be plucked without its important counterpart; the bow. There are three types of bows that Nella uses, and holds eight of them at a time. How is this possible you ask? Well how might an archer carry a mass amount of arrows? Yes exactly, with a quiver strapped over their shoulder. Nella has an arrow quiver repurposed to hold her eight bows. It sits strapped over one shoulder like any other, and grants easy access to her "weapons." But lets actually break down what separates the three categories.
+<br><br>
+<b>Violin Bow</b><br>
+The first kind of bow is plain. It is made of pernambuco wood which is flexible but incredibly durable. The end of the bow is sharpened to a point which makes it useful for "just in case" situations but wouldn't do much good against sharp weapons.
+<br>
+<b>Metal Bow</b><br>
+The second category is a legitimate weaponized class bow. The sucker makes a nice spear with that vicious looking blade on one end and arrow-like point on the other. She finds them quite useful for close ranged combat and are much more durable against other sharp weapons.
+<br>
+<b>Light Bow</b><br>
+The third and final category is not one that will be found inside her quiver, but rather is the spell "Hardened Light" itself. But weaponizing her bows aside, she can still play her beautiful music with all of the above.
+</div>
+
+<div id="tab13">
+<img style="width:100%;" src="http://orig05.deviantart.net/f258/f/2016/148/1/b/thumb_zpsfb8d462c_by_krysseh21-da453l7.png"/>
+</div>
+
+<div id="tab14">
+<img style="width:100%;margin-top:10%;" src="http://i1154.photobucket.com/albums/p524/GangreenGangGirly/tumblr_lsnme5pda01qiooa8o1_500.gif"/>
+</div>
+
+<div id="tab15">
+<img style="width:100%;margin-top:10%;" src="https://static.wixstatic.com/media/7c1146_a5a78c2ffed14592b4140a9c50f2e845.gif"/>
+</div>
